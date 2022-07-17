@@ -26,6 +26,8 @@ void Show2dArray(int[,] array)
     }
 }
 
+
+
 Console.Write("Input row: ");
 int row = Convert.ToInt32(Console.ReadLine());
 
@@ -35,6 +37,7 @@ int column = Convert.ToInt32(Console.ReadLine());
 int[,] myArray = CreateRandom2dArray(row, column, 1, 9);
 Show2dArray(myArray);
 
+Console.WriteLine();
 
 
 
